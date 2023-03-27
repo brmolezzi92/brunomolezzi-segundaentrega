@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.descCard{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.cardItem{
+    border-radius: 1rem;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.cardItem .cardImg{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cardItem .cardImg img{
+    height: 200px;
+    width: 200px;
+    transform: scale(0.65);
+}
+
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+}
+
+.cardDescription .title{
+    font-size: 21px;
+    margin: 6px 0;
+}
+
+.cardDescription .description{
+    display: none;
+}
+
+.cardDescription .cant{
+    color: black;
+    font-size: 16px;
+    margin: 6px 0;
+
+}
+
+.cardDescription .precio{
+    color: rgba(5, 74, 5, 0.564);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.buttons{
+    margin-top: 1rem;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons #detalles{   
+    height: 55px;
+    width: 75%;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.buttons #detalles:hover{
+    background-color: gray;
+}
+
+.buttons #addCart{
+    background-color: gray;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons #addCart img{
+    transform: scale(0.7);
+}
+
+.buttons #detalleshover, .buttons #addCart:hover{
+    background-color: gray;
+}
+
+
+
+
+
+
+
